@@ -1,0 +1,90 @@
+/* fonts link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* common start */
+:root{
+    --pop: 'Poppins', sans-serif;
+    --rob: 'Roboto', sans-serif;
+    --fwr: 400;
+    --red: #FD511A;
+    --black: #000000;
+    --green: #21B573;
+    --bgg: #F0FFF0;
+    --white: #ffffff;
+}
+body{
+    font-family: var(--pop);
+    font-size: 16px;
+    font-weight: var(--fwr);
+    color: var(--black)
+}
+/* common end */
+
+/* header start */
+.header{
+    padding: 17px 0;
+    background-color:var(--bgg);
+}
+.m_nav{}
+.logo{}
+.menu{}
+ul li a{
+    padding: 0 25px !important;
+    font-family: var(--pop);
+    font-size: 16px !important;
+    font-weight: var(--fwr) !important;
+    color: var(--black) !important;
+    line-height: 24px;
+}
+ul li a:hover{
+    color: var(--red) !important;
+}
+
+.btn_c{
+    font-family: var(--rob);
+    border-radius: 30px;
+    background-color: var(--green);
+    color: var(--white) !important;
+
+}
+.btn_c:hover{
+    background-color: var(--red) !important;
+}
+.btn_sign{
+    width: 105px;
+    height: 45px;
+    margin-left: 10px;
+}
+/* header end */
+
+/* banner start */
+.banner{
+    background-color: var(--bgg);
+}
+.b_text{
+    font-family: var(--pop);
+}
+.bp1{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--red);
+    margin: 45px 0 10px;
+}
+.bh1{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 70px;
+}
+.bh1g{
+    color: var(--green);
+}
+.bp2{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--black);
+    line-height: 30px;
+}
+.btn_banner{}
+.b_img{}
+/* banner end */
